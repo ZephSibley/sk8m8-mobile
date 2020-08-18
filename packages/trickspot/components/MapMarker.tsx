@@ -8,7 +8,7 @@ const MapMarker: FunctionComponent<MapMarker> = ({ id, coords }) => {
       identifier={id.toString()}
       coordinate={{ latitude: coords[0], longitude: coords[1] }}
     >
-      
+
     </Marker>
   )
 }
