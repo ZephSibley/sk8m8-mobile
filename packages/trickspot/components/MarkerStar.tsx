@@ -11,6 +11,7 @@ const MarkerStar: FunctionComponent<MarkerStar> = ({
 }) => {
   const [starred, setStarred] = useState(hasStarred);
 
+  // TODO: Handle starting state and updates better, this is buggy
   useEffect(() => {
     setStarred(hasStarred)
   }, [hasStarred]);
